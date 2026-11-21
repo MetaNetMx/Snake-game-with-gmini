@@ -1,3 +1,7 @@
+import midnightGridCover from '../assets/images/album_midnight_grid_1795286291449.jpg';
+import velvetVoltageCover from '../assets/images/album_velvet_voltage_1795286292470.jpg';
+import auroraDriftCover from '../assets/images/album_aurora_drift_1795286292183.jpg';
+
 export interface TrackSynthSpec {
   /** 4-bar chord progression as MIDI note arrays (each bar = 16 sixteenth steps) */
   chords: number[][];
@@ -47,7 +51,7 @@ export const DEMO_TRACKS: DemoTrack[] = [
     mood: 'Driving neon arpeggios & analog pulse',
     bpm: 118,
     durationSec: 144,
-    coverUrl: '/src/assets/images/album_midnight_grid_1795286291449.jpg',
+    coverUrl: midnightGridCover,
     accentHex: '#22D3EE',
     accentSecondaryHex: '#38BDF8',
     accentGlowRgba: 'rgba(34, 211, 238, 0.45)',
@@ -106,7 +110,7 @@ export const DEMO_TRACKS: DemoTrack[] = [
     mood: 'Punchy bassline & sculpted magenta shimmer',
     bpm: 126,
     durationSec: 136,
-    coverUrl: '/src/assets/images/album_velvet_voltage_1795286292470.jpg',
+    coverUrl: velvetVoltageCover,
     accentHex: '#E879F9',
     accentSecondaryHex: '#FB7185',
     accentGlowRgba: 'rgba(232, 121, 249, 0.45)',
@@ -165,7 +169,7 @@ export const DEMO_TRACKS: DemoTrack[] = [
     mood: 'Floating glass pads & lucid nocturnal groove',
     bpm: 94,
     durationSec: 160,
-    coverUrl: '/src/assets/images/album_aurora_drift_1795286292183.jpg',
+    coverUrl: auroraDriftCover,
     accentHex: '#A3E635',
     accentSecondaryHex: '#A78BFA',
     accentGlowRgba: 'rgba(163, 230, 53, 0.4)',
